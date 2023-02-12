@@ -1,0 +1,749 @@
+body {
+  background-color: rgb(209, 205, 205);
+  margin-bottom: 0;
+}
+main {
+  background-color: white;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 0;
+}
+.header-div{
+background-color: rgb(61, 60, 60);
+color: white;
+display: flex;
+height: 1rem;
+justify-content: space-between;
+height: 3rem;
+}
+.details{
+display: flex;
+}
+.details p {
+padding: 1rem;
+margin: 0;
+}
+.details .details-colored{
+  background-color: rgb(21, 144, 144);
+}
+.icons svg{
+  margin-right: 0.6rem;
+  padding: 1rem 0;
+}
+input[type=checkbox]{
+  display: none;
+ } 
+
+.hamburger {
+  display: none;
+  position: absolute;
+  font-size: 30px;
+  margin-left: 30px;
+}
+.nav-logo{
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+}
+.logo-div {
+  padding-left: 5rem;
+  color: rgb(77, 76, 76);
+  font-weight: 600;
+}
+.logo-div p {
+  margin: 0;
+  padding-top: 2rem;
+}
+.logo-div .logo-span{
+  color: rgb(108, 189, 189);
+}
+.nav-div{
+  margin-right: 5rem;
+}
+.nav-div ul{
+  margin: 0;
+  padding-top: 2rem;
+}
+.nav-div li{
+  display: inline;
+  padding-right: 1rem;
+}
+.nav-div a{
+  text-decoration: none;
+  color: rgb(77, 76, 76);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.nav-div .last-li {
+  border: 2px solid rgb(168, 167, 167);
+  padding: 0.7rem;
+  border-radius: 5px;
+}
+.sec-one {
+  background-color: rgb(134, 228, 228);
+  height: 25rem;
+  display: flex;
+}
+.secone-pic {
+ background-image: url('./images/woman&camera.jpg');
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 20rem;
+ width: 25rem;
+ margin-left: 12rem;
+ margin-top: 5rem;
+}
+.sec-one .camera-div {
+  margin-left: 8rem;
+  margin-top: 5rem;
+}
+.camera-div .svg-p{
+  background-color: white;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+.svg-p svg {
+  padding: 0.8rem;
+}
+.camera-div .focus, .camera-div .services {
+  font-size: x-large;
+  color: rgb(55, 54, 54);
+  margin-top: 0;
+}
+.camera-div .photo {
+   background-color: rgb(21, 144, 144);
+   color: white;
+   font-size: xx-large;
+   padding: 0.4rem;
+   margin-top: 0;
+}
+.sec-two {
+  height: 30rem;
+  display: flex;
+  justify-content: space-between;
+}
+.sec-two .sectwo-img {
+  background-image: url('./images/magazine.jpg');
+  background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 23rem;
+ width: 20rem;
+ margin-right: 7rem;
+margin-top: 4rem;
+}
+.sec-two .sectwo-div {
+margin-left: 7rem;
+margin-top: 3rem;
+width: 35%;
+}
+.sectwo-div .about {
+  background-color: rgb(21, 144, 144);
+  width: 7rem;
+  color: white;
+  padding: 0.7rem;
+}
+.about .dash{
+ color: white;
+}
+.sectwo-div h2 {
+  font-size: xx-large;
+  font-weight: 500;
+  width: 17rem;
+  color: rgb(77, 76, 76);
+}
+.sectwo-div .h2-span{
+  color: rgb(108, 189, 189);
+}
+.sectwo-div .lorem-p{
+  color: rgb(77, 76, 76);
+}
+.sectwo-div button{
+  margin-top: 1rem;
+  background-color: white;
+  border: 2px solid rgb(168, 167, 167);
+  padding: 0.7rem;
+  border-radius: 5px;
+}
+.sectwo-div a{
+  text-decoration: none;
+  color: rgb(77, 76, 76);
+  font-weight: 600;
+}
+@media (min-width: 375px) and (max-width: 459px){
+  main {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+  .details p {
+    width: 5rem;
+    font-size: x-small;
+    padding: 0.7rem;
+  }
+  .details .details-colored{
+   width: 4rem;
+}
+.icons svg{
+  width: 10px;
+  height: 10px;
+   padding: 0.7rem 0;
+}
+.header-div{
+height: 2rem;
+}
+  .logo-div {
+  padding-left: 1rem;
+}
+  .secone-pic {
+ margin-left: 1rem;
+   width: 8rem;
+}
+.sec-one .camera-div {
+  margin-left: 1rem;
+}
+.camera-div .focus, .camera-div .services {
+  font-size: large;
+  margin-top: 2rem;
+}
+.camera-div .photo {
+   font-size: large;
+   padding: 0.4rem;
+   margin-top: 2rem;
+}
+.nav-logo{
+  position: relative;
+}
+.nav-div{
+  display: none;
+    position: absolute;
+    top: 0rem;
+    right: -5rem;
+    background-color: rgb(21, 144, 144);
+    width: 10rem;
+}
+.nav-div .last-li {
+  border: none;
+  padding: 0;
+  border-radius: 0;
+}
+input[type=checkbox]:checked ~ .nav-div{
+    display: block;
+   }
+   .hamburger {
+    display: block;
+    margin-top: 1.5rem;
+   margin-left: 90%;
+   z-index: 2;
+   font-size: 20px;
+   }
+.nav-div li{
+  display: block;
+  padding-right: 0.6rem;
+  padding-top: 0.5rem;
+  height:2rem;
+  color: white;
+}
+.nav-div li:nth-of-type(1){
+  padding-top: 1.5rem;
+}
+.nav-div a{
+  color: white;
+}
+.sec-two {
+  height: 28rem;
+}
+.sec-two .sectwo-div {
+margin-left: 1rem;
+}
+.sectwo-div h2 {
+  width: 15rem;
+  font-size: x-large;
+}
+.sectwo-div .lorem-p{
+ width: 16rem;
+}
+.sec-two .sectwo-img {
+display: none;
+}
+}
+@media (min-width: 460px) and (max-width: 519px){
+  .details p {
+    width: 5rem;
+    font-size: x-small;
+    padding: 0.7rem;
+  }
+  .details .details-colored{
+   width: 4rem;
+}
+.icons svg{
+  width: 10px;
+  height: 10px;
+   padding: 0.7rem 0;
+}
+.header-div{
+height: 2rem;
+}
+  .logo-div {
+  padding-left: 1rem;
+}
+  .secone-pic {
+ margin-left: 1rem;
+   width: 8rem;
+}
+.sec-one .camera-div {
+  margin-left: 1rem;
+}
+.camera-div .focus, .camera-div .services {
+  font-size: large;
+  margin-top: 2rem;
+}
+.camera-div .photo {
+   font-size: large;
+   padding: 0.4rem;
+   margin-top: 2rem;
+}
+.nav-logo{
+  position: relative;
+}
+.nav-div{
+  display: none;
+    position: absolute;
+    top: 0rem;
+    right: -5rem;
+    background-color: rgb(21, 144, 144);
+    width: 10rem;
+}
+.nav-div .last-li {
+  border: none;
+  padding: 0;
+  border-radius: 0;
+}
+input[type=checkbox]:checked ~ .nav-div{
+    display: block;
+   }
+   .hamburger {
+    display: block;
+    margin-top: 1.5rem;
+   margin-left: 90%;
+   z-index: 2;
+   font-size: 20px;
+   }
+.nav-div li{
+  display: block;
+  padding-right: 0.6rem;
+  padding-top: 0.5rem;
+  height:2rem;
+  color: white;
+}
+.nav-div li:nth-of-type(1){
+  padding-top: 1.5rem;
+}
+.nav-div a{
+  color: white;
+}
+.sec-two {
+  height: 28rem;
+}
+.sec-two .sectwo-div {
+margin-left: 1rem;
+}
+.sectwo-div h2 {
+  width: 15rem;
+  font-size: x-large;
+}
+.sectwo-div .lorem-p{
+ width: 16rem;
+}
+.sec-two .sectwo-img {
+display: none;
+}
+}
+@media (min-width: 520px) and (max-width: 572px){
+  .details p {
+    width: 6rem;
+    font-size: small;
+  }
+  .details .details-colored{
+   width: 5rem;
+}
+  .logo-div {
+  padding-left: 1rem;
+}
+  .secone-pic {
+ margin-left: 1rem;
+   width: 8rem;
+}
+.sec-one .camera-div {
+  margin-left: 1rem;
+}
+.nav-logo{
+  position: relative;
+}
+.nav-div{
+  display: none;
+    position: absolute;
+    top: 0rem;
+    right: -5rem;
+    background-color: rgb(21, 144, 144);
+    width: 10rem;
+}
+.nav-div .last-li {
+  border: none;
+  padding: 0;
+  border-radius: 0;
+}
+input[type=checkbox]:checked ~ .nav-div{
+    display: block;
+   }
+   .hamburger {
+    display: block;
+    margin-top: 1rem;
+   margin-left: 90%;
+   z-index: 2;
+   }
+.nav-div li{
+  display: block;
+  padding-right: 0.6rem;
+  padding-top: 0.5rem;
+  height:2rem;
+  color: white;
+}
+.nav-div li:nth-of-type(1){
+  padding-top: 1.5rem;
+}
+.nav-div a{
+  color: white;
+}
+.sec-two {
+  height: 27rem;
+}
+.sec-two .sectwo-div {
+margin-left: 1rem;
+}
+.sectwo-div h2 {
+  width: 15rem;
+  font-size: x-large;
+}
+.sectwo-div .lorem-p{
+ width: 18rem;
+}
+.sec-two .sectwo-img {
+display: none;
+}
+}
+@media (min-width: 573px) and (max-width: 649px){
+  .logo-div {
+  padding-left: 1rem;
+}
+  .secone-pic {
+ margin-left: 1rem;
+   width: 10rem;
+}
+.sec-one .camera-div {
+  margin-left: 1rem;
+}
+.nav-logo{
+  position: relative;
+}
+.nav-div{
+  display: none;
+    position: absolute;
+    top: 0rem;
+    right: -5rem;
+    background-color: rgb(21, 144, 144);
+    width: 10rem;
+}
+.nav-div .last-li {
+  border: none;
+  padding: 0;
+  border-radius: 0;
+}
+input[type=checkbox]:checked ~ .nav-div{
+    display: block;
+   }
+   .hamburger {
+    display: block;
+    margin-top: 1rem;
+   margin-left: 90%;
+   z-index: 2;
+   }
+.nav-div li{
+  display: block;
+  padding-right: 0.6rem;
+  padding-top: 0.5rem;
+  height:2rem;
+  color: white;
+}
+.nav-div li:nth-of-type(1){
+  padding-top: 1.5rem;
+}
+.nav-div a{
+  color: white;
+}
+.sec-two {
+  height: 25rem;
+}
+.sec-two .sectwo-div {
+margin-left: 1rem;
+}
+.sectwo-div h2 {
+  width: 22rem;
+  font-size: x-large;
+}
+.sectwo-div .lorem-p{
+ width: 24rem;
+}
+.sec-two .sectwo-img {
+display: none;
+}
+}
+@media (min-width: 573px) and (max-width: 649px){
+  .logo-div {
+  padding-left: 1rem;
+}
+  .secone-pic {
+ margin-left: 1rem;
+   width: 10rem;
+}
+.sec-one .camera-div {
+  margin-left: 1rem;
+}
+.nav-logo{
+  position: relative;
+}
+.nav-div{
+  display: none;
+    position: absolute;
+    top: 0rem;
+    right: -5rem;
+    background-color: rgb(21, 144, 144);
+    width: 10rem;
+}
+.nav-div .last-li {
+  border: none;
+  padding: 0;
+  border-radius: 0;
+}
+input[type=checkbox]:checked ~ .nav-div{
+    display: block;
+   }
+   .hamburger {
+    display: block;
+    margin-top: 1rem;
+   margin-left: 90%;
+   z-index: 2;
+   }
+.nav-div li{
+  display: block;
+  padding-right: 0.6rem;
+  padding-top: 0.5rem;
+  height:2rem;
+  color: white;
+}
+.nav-div li:nth-of-type(1){
+  padding-top: 1.5rem;
+}
+.nav-div a{
+  color: white;
+}
+.sec-two {
+  height: 25rem;
+}
+.sec-two .sectwo-div {
+margin-left: 1rem;
+}
+.sectwo-div h2 {
+  width: 22rem;
+  font-size: x-large;
+}
+.sectwo-div .lorem-p{
+ width: 24rem;
+}
+.sec-two .sectwo-img {
+display: none;
+}
+}
+@media (min-width: 650px) and (max-width: 729px){
+  .logo-div {
+  padding-left: 1rem;
+}
+  .secone-pic {
+ margin-left: 1rem;
+   width: 15rem;
+}
+.sec-one .camera-div {
+  margin-left: 1rem;
+}
+.nav-logo{
+  position: relative;
+}
+.nav-div{
+  display: none;
+    position: absolute;
+    top: 0rem;
+    right: -5rem;
+    background-color: rgb(21, 144, 144);
+    width: 10rem;
+}
+.nav-div .last-li {
+  border: none;
+  padding: 0;
+  border-radius: 0;
+}
+input[type=checkbox]:checked ~ .nav-div{
+    display: block;
+   }
+   .hamburger {
+    display: block;
+    margin-top: 1rem;
+   margin-left: 90%;
+   z-index: 2;
+   }
+.nav-div li{
+  display: block;
+  padding-right: 0.6rem;
+  padding-top: 0.5rem;
+  height:2rem;
+  color: white;
+}
+.nav-div li:nth-of-type(1){
+  padding-top: 1.5rem;
+}
+.nav-div a{
+  color: white;
+}
+.sec-two {
+  height: 25rem;
+}
+.sec-two .sectwo-div {
+margin-left: 1rem;
+}
+.sectwo-div h2 {
+  width: 25rem;
+}
+.sectwo-div .lorem-p{
+ width: 30rem;
+}
+.sec-two .sectwo-img {
+display: none;
+}
+}
+@media (min-width: 730px) and (max-width: 799px){
+  .logo-div {
+  padding-left: 1rem;
+}
+  .secone-pic {
+ margin-left: 1rem;
+   width: 18rem;
+}
+.sec-one .camera-div {
+  margin-left: 2rem;
+}
+.nav-logo{
+  position: relative;
+}
+.nav-div{
+  display: none;
+    position: absolute;
+    top: 0rem;
+    right: -5rem;
+    background-color: rgb(21, 144, 144);
+    width: 10rem;
+}
+.nav-div .last-li {
+  border: none;
+  padding: 0;
+  border-radius: 0;
+}
+input[type=checkbox]:checked ~ .nav-div{
+    display: block;
+   }
+   .hamburger {
+    display: block;
+    margin-top: 1rem;
+   margin-left: 90%;
+   z-index: 2;
+   }
+.nav-div li{
+  display: block;
+  padding-right: 0.6rem;
+  padding-top: 0.5rem;
+  height:2rem;
+  color: white;
+}
+.nav-div li:nth-of-type(1){
+  padding-top: 1.5rem;
+}
+.nav-div a{
+  color: white;
+}
+.sec-two {
+  height: 25rem;
+}
+.sec-two .sectwo-div {
+margin-left: 1rem;
+}
+.sectwo-div h2 {
+  width: 30rem;
+}
+.sectwo-div .lorem-p{
+ width: 33rem;
+}
+.sec-two .sectwo-img {
+display: none;
+}
+}
+@media (min-width: 800px) and (max-width: 899px){
+  .logo-div {
+  padding-left: 1rem;
+}
+  .secone-pic {
+ margin-left: 1rem;
+   width: 20rem;
+}
+.sec-one .camera-div {
+  margin-left: 4rem;
+}
+.nav-div{
+  margin-right: 1rem;
+}
+.nav-div li{
+  padding-right: 0.6rem;
+}
+.sec-two .sectwo-div {
+margin-left: 1rem;
+}
+.sectwo-div .lorem-p{
+ width: 17rem;
+}
+.sec-two .sectwo-img {
+ width: 15rem;
+ margin-right: 2rem;
+}
+}
+@media (min-width: 900px) and (max-width: 1127px){
+  .secone-pic {
+ margin-left: 5rem;
+   width: 20rem;
+}
+.sec-one .camera-div {
+  margin-left: 4rem;
+}
+.nav-div li{
+  padding-right: 0.6rem;
+}
+.sec-two .sectwo-div {
+margin-left: 5rem;
+}
+.sectwo-div .lorem-p{
+ width: 17rem;
+}
+.sec-two .sectwo-img {
+ width: 15rem;
+ margin-right: 7rem;
+}
+}
